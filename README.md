@@ -1,5 +1,9 @@
 # FreeRADIUS Docker image with MySQL and Python3
 
+[![GitHub Workflow Status](https://github.com/iquiw/docker-freeradius-python3/actions/workflows/docker.yml/badge.svg)](https://github.com/iquiw/docker-freeradius-python3/actions/workflows/docker.yml)
+[![Docker Pulls](https://img.shields.io/docker/pulls/iquiw/freeradius-python3)](https://hub.docker.com/r/iquiw/freeradius-python3)
+[![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/iquiw/freeradius-python3)](https://hub.docker.com/r/iquiw/freeradius-python3)
+
 This is FreeRADIUS 3.0.x Docker image based on Ubuntu 22.04.
 
 The following modules are enabled in addition to default ones.
