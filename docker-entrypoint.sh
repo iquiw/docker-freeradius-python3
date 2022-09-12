@@ -5,6 +5,7 @@ python3_file=/etc/freeradius/3.0/mods-enabled/python3
 generate_python3() {
 	{
 		echo 'python3 {'
+		echo "	python_path=\"${FREERADIUS_PYTHON3_PATH:-\${modconfdir\}/\${.:name\}}\""
 		echo "	module = ${FREERADIUS_PYTHON3_MODULE:-example}"
 		if [ -n "$FREERADIUS_PYTHON3_PASS_ALL_VPS" ]; then
 			echo "	pass_all_vps = $FREERADIUS_PYTHON3_PASS_ALL_VPS"
