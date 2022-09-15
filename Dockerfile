@@ -20,6 +20,8 @@ RUN chmod 640 /etc/freeradius/3.0/sites-enabled/default && \
     chmod 640 sql && \
     ln -s ../mods-available/sqlippool .
 
+EXPOSE 1812/udp 1813/udp
+
 CMD ["/usr/sbin/freeradius", "-X"]
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
