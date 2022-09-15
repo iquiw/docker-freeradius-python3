@@ -158,7 +158,7 @@ sql {
 
 	# Connection info:
 	#
-	server = "$ENV{FREERADIUS_MYSQL_SERVER}"
+	server = "$ENV{FREERADIUS_MYSQL_HOST}"
 	port = $ENV{FREERADIUS_MYSQL_PORT}
 	login = "$ENV{FREERADIUS_MYSQL_USER}"
 	password = "$ENV{FREERADIUS_MYSQL_PASSWORD}"

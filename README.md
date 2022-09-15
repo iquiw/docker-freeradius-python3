@@ -16,7 +16,7 @@ The following modules are enabled in addition to default ones.
 
 | Variable                             | Description                                | Default                 |
 | ---                                  | ---                                        | ---                     |
-| FREERADIUS_MYSQL_SERVER              | MySQL server hostname.                     | mysql                   |
+| FREERADIUS_MYSQL_HOST                | MySQL server hostname.                     | mysql                   |
 | FREERADIUS_MYSQL_PORT                | MySQL server port.                         | 3306                    |
 | FREERADIUS_MYSQL_USER                | MySQL user to connect to DB.               | root                    |
 | FREERADIUS_MYSQL_PASSWORD            | MySQL user's password.                     |                         |
